@@ -16,7 +16,7 @@ on:
   schedule:
     - cron:  '0 0 * * *'
 env:
-  BASENAME: ghcr.io/redstonewizard08/minideb
+  BASENAME: redstonewizard/minideb
   LATEST: buster
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
